@@ -9,10 +9,11 @@ body {
 
 section {
   text-align: center;
+  margin: 10px;
 }
 header {
   position: absolute;
-  top: 0px;
+  top: 10px;
   left: 50%;
   width: 1000px;
   height: 280px;
@@ -21,10 +22,10 @@ header {
 }
 footer {
   position: absolute;
-  top: 280px;
+  top: 291px;
   left: 50%;
   width: 1000px;
-  height: 280px;
+  height: 281px;
   text-align: center;
   transform: translateX(-50%);
 }
