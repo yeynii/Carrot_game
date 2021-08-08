@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: auto;
+}
+body {
+  background-color: black;
+}
+
+section {
+  text-align: center;
+}
+header {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  width: 1000px;
+  height: 280px;
+  text-align: center;
+  transform: translateX(-50%);
+}
+footer {
+  position: absolute;
+  top: 280px;
+  left: 50%;
+  width: 1000px;
+  height: 280px;
+  text-align: center;
+  transform: translateX(-50%);
+}
+button {
+  padding: 15px;
+  background-color: blanchedalmond;
+  border: solid 3px;
+  border-radius: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.bg {
+  width: 1000px;
+  border-radius: 20px;
+}
+.reset {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.timer {
+  position: absolute;
+  width: 150px;
+  background-color: #ffffff;
+  border: solid 3px;
+  border-radius: 10px;
+  font-size: 24px;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carrot__num {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+  border: solid 2px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  border-color: black;
+}
+
+#carrot {
+  background: transparent;
+  position: absolute;
+}
+#carrot:hover {
+  cursor: pointer;
+}
+#bug {
+  background: transparent;
+  position: absolute;
+}
+#bug:hover {
+  cursor: pointer;
+}
+.result {
+  flex-direction: column;
+  background-color: black;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  border-radius: 20px;
+  opacity: 70%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding: 10px;
+}
